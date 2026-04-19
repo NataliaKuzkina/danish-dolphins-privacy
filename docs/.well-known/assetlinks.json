@@ -3,9 +3,9 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.sdkdev.danish_dolphins",
+      "package_name": "com.sdkdev.danishdolphins",
       "sha256_cert_fingerprints": [
-        "YOUR_RELEASE_SHA256"
+        "71:1C:8D:FD:9C:25:0D:96:5E:6A:80:31:CE:3C:81:85:ED:D0:6E:2F:FB:C2:1D:FA:F2:0D:4E:93:09:76:BE:3B"
       ]
     }
   }
