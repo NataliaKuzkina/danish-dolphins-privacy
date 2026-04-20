@@ -35,6 +35,26 @@
     }
   </style>
 </head>
+  <script>
+  const deepLink = "com.sdkdev.danishdolphins://login-callback";
+
+  function isMobile() {
+    return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+  }
+
+  if (isMobile()) {
+    // Try to open the app automatically
+    window.location.href = deepLink;
+
+    // Fallback: if app didn't open, stay on page
+    setTimeout(() => {
+      document.getElementById("openAppBtn").style.display = "inline-block";
+    }, 1500);
+  } else {
+    // On desktop: just show button (no redirect)
+    document.getElementById("openAppBtn").style.display = "inline-block";
+  }
+</script>
 <body>
   <div class="card">
     <h1>Email confirmed successfully</h1>
