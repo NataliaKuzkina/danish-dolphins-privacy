@@ -21,7 +21,7 @@ We may collect the following types of data:
 
 ### c) User-Generated Content
 
-* Photos uploaded by users
+* Photos and videos uploaded by users
 * Dolphin sighting information (such as descriptions and observations)
 
 ---
@@ -34,20 +34,22 @@ We use collected data to:
 * Enable users to contribute observational data
 * Support scientific research on dolphin movements, migration patterns, and behavior
 * Improve app functionality and performance
+* Authenticate users via Apple, Google, or email sign-in
 
 ---
 
 ## 3. Data Sharing
 
-* User-submitted data (including sightings and photos) may be shared with researchers for scientific purposes
+* User-submitted data (including sightings, photos, and videos) may be shared with researchers for scientific purposes
 * We do not sell personal data to third parties
+* We do not share personal data with third parties except as necessary to provide the app’s functionality or for scientific research purposes
 * We do not use data for advertising or marketing purposes
 
 ---
 
 ## 4. Data Storage and Security
 
-Data is stored securely using third-party infrastructure providers.
+Data is stored securely using third-party infrastructure providers (such as Supabase).
 We apply reasonable technical and organizational measures to protect user data.
 
 ---
@@ -60,7 +62,7 @@ We retain user data as long as necessary to provide the app’s functionality an
 
 ## 6. User Rights
 
-Users may request deletion of their data by contacting us.
+Users may request deletion of their data by contacting us via the email provided below.
 
 ---
 
@@ -83,3 +85,5 @@ If you have any questions about this Privacy Policy or your data, please contact
 
 We may update this Privacy Policy from time to time.
 Changes will be reflected by updating the effective date above.
+
+This policy is governed by applicable laws in the European Union.
